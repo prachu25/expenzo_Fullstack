@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import StatsCards from '../components/StatsCards'
 import AnalyticSection from '../components/AnalyticSection'
 import CategoryBreakdown from '../components/CategoryBreakdown'
-import MonthlyOverview from '../components/MOnthlyOverview'
+import MonthlyOverview from '../components/MonthlyOverview'
 import ExpensesTips from '../components/ExpensesTips'
 
 const Dashboard = () => {
