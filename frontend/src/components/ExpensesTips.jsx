@@ -20,7 +20,7 @@ const ExpensesTips = () => {
 
             const response = await axios.get(
 
-                `${BASE_URL}}/get-expenses/${email}`
+                `${BASE_URL}/get-expenses/${email}`
             )
 
             setExpenses(response.data)

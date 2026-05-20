@@ -39,7 +39,6 @@ const ManageExpenses = () => {
             const email = localStorage.getItem("email")
 
             const response = await axios.get(
-
                 `${BASE_URL}/get-expenses/${email}`
             )
 
@@ -158,7 +157,7 @@ const ManageExpenses = () => {
 
             await axios.put(
 
-                `${BASE_URL}/${editingExpense._id}`,
+                `${BASE_URL}/modify-expense/${editingExpense._id}`,
 
                 updatedData
             )
